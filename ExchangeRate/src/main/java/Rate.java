@@ -1,5 +1,5 @@
 
-public class Rate {
+public class Rate implements Comparable<Rate> {
   // public enum Type {LEFT, RIGHT}
 
   public Rate(Pair<Double, String> left, Pair<Double, String> right) {
@@ -22,4 +22,9 @@ public class Rate {
 
   private Pair<Double, String> left;
   private Pair<Double, String> right;
+
+  @Override
+  public int compareTo(Rate o) {
+    return getName().compareTo(o.getName());
+  }
 }

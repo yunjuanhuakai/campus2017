@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+            <state relative-caret-position="179">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,129 +35,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParseText.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ParseText.java">
+      <file leaf-file-name="Tools.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Tools.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-342">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RateRequest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/RateRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-323">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="344">
+              <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateRates.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CreateRates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Connection.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.1/jsoup-1.10.1-sources.jar!/org/jsoup/Connection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5282">
-              <caret line="290" column="0" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1146#1147#0" expanded="false" />
-                <element signature="e#1192#1193#0" expanded="false" />
-                <element signature="e#1354#1355#0" expanded="false" />
-                <element signature="e#1392#1393#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpConnection.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.1/jsoup-1.10.1-sources.jar!/org/jsoup/helper/HttpConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4104">
-              <caret line="234" column="26" selection-start-line="234" selection-start-column="26" selection-end-line="234" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#6888#6889#0" expanded="false" />
-                <element signature="e#6914#6915#0" expanded="false" />
-                <element signature="e#7070#7071#0" expanded="false" />
-                <element signature="e#7096#7097#0" expanded="false" />
-                <element signature="e#7765#7766#0" expanded="false" />
-                <element signature="e#7799#7800#0" expanded="false" />
-                <element signature="e#7992#7993#0" expanded="false" />
-                <element signature="e#8029#8030#0" expanded="false" />
-                <element signature="e#9610#9611#0" expanded="false" />
-                <element signature="e#9648#9649#0" expanded="false" />
-                <element signature="e#11414#11415#0" expanded="false" />
-                <element signature="e#11452#11453#0" expanded="false" />
-                <element signature="e#12546#12547#0" expanded="false" />
-                <element signature="e#12582#12583#0" expanded="false" />
-                <element signature="e#12917#12918#0" expanded="false" />
-                <element signature="e#12967#12968#0" expanded="false" />
-                <element signature="e#13224#13225#0" expanded="false" />
-                <element signature="e#13271#13272#0" expanded="false" />
-                <element signature="e#13532#13533#0" expanded="false" />
-                <element signature="e#13578#13579#0" expanded="false" />
-                <element signature="e#13788#13789#0" expanded="false" />
-                <element signature="e#13835#13836#0" expanded="false" />
-                <element signature="e#13887#13888#0" expanded="false" />
-                <element signature="e#13941#13942#0" expanded="false" />
-                <element signature="e#14003#14004#0" expanded="false" />
-                <element signature="e#14058#14059#0" expanded="false" />
-                <element signature="e#14273#14274#0" expanded="false" />
-                <element signature="e#14321#14322#0" expanded="false" />
-                <element signature="e#14737#14738#0" expanded="false" />
-                <element signature="e#14772#14773#0" expanded="false" />
-                <element signature="e#14938#14939#0" expanded="false" />
-                <element signature="e#14973#14974#0" expanded="false" />
-                <element signature="e#15158#15159#0" expanded="false" />
-                <element signature="e#15195#15196#0" expanded="false" />
-                <element signature="e#15548#15549#0" expanded="false" />
-                <element signature="e#15594#15595#0" expanded="false" />
-                <element signature="e#16431#16432#0" expanded="false" />
-                <element signature="e#16462#16463#0" expanded="false" />
-                <element signature="e#22196#22197#0" expanded="false" />
-                <element signature="e#22237#22238#0" expanded="false" />
-                <element signature="e#22278#22279#0" expanded="false" />
-                <element signature="e#22322#22323#0" expanded="false" />
-                <element signature="e#22357#22358#0" expanded="false" />
-                <element signature="e#22395#22396#0" expanded="false" />
-                <element signature="e#22556#22557#0" expanded="false" />
-                <element signature="e#22598#22599#0" expanded="false" />
-                <element signature="e#25628#25797#0" expanded="false" />
-                <element signature="e#25796#25797#0" expanded="false" />
-                <element signature="e#26767#26768#0" expanded="false" />
-                <element signature="e#26826#26827#0" expanded="false" />
-                <element signature="e#28825#28847#0" expanded="false" />
-                <element signature="e#29398#29406#0" expanded="false" />
-                <element signature="e#36982#36983#0" expanded="false" />
-                <element signature="e#37047#37048#0" expanded="false" />
-                <element signature="e#37453#37454#0" expanded="false" />
-                <element signature="e#37487#37488#0" expanded="false" />
-                <element signature="e#37700#37701#0" expanded="false" />
-                <element signature="e#37736#37737#0" expanded="false" />
-                <element signature="e#37991#37992#0" expanded="false" />
-                <element signature="e#38028#38029#0" expanded="false" />
-                <element signature="e#38071#38072#0" expanded="false" />
-                <element signature="e#38116#38117#0" expanded="false" />
-                <element signature="e#38170#38171#0" expanded="false" />
-                <element signature="e#38218#38219#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -192,11 +76,20 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/tt.html" />
         <option value="$PROJECT_DIR$/src/main/java/ParseHtml.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Rate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CreateRates.java" />
         <option value="$PROJECT_DIR$/src/main/java/ParseText.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CreateRates.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FutureTools.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Documents.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RequestStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IndexRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TheDayRates.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Index.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ToTreeSet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Rate.java" />
         <option value="$PROJECT_DIR$/src/main/java/RateRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/InExecl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Tools.java" />
       </list>
     </option>
   </component>
@@ -248,9 +141,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -329,15 +221,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ibitsAndJava8" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -853,12 +747,19 @@
       <workItem from="1478848209034" duration="18494000" />
       <workItem from="1478870459601" duration="7051000" />
       <workItem from="1478878034177" duration="8987000" />
-      <workItem from="1478934103564" duration="1580000" />
+      <workItem from="1478934103564" duration="12804000" />
+      <workItem from="1478950586864" duration="6785000" />
+      <workItem from="1478962886127" duration="3284000" />
+      <workItem from="1478966993946" duration="4703000" />
+      <workItem from="1479011425166" duration="5178000" />
+      <workItem from="1479019620156" duration="20298000" />
+      <workItem from="1479042884435" duration="1192000" />
+      <workItem from="1479044621280" duration="719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65752000" />
+    <option name="totallyTimeSpent" value="119135000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -871,21 +772,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -913,7 +814,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -922,177 +823,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16587">
-          <caret line="873" column="0" selection-start-line="873" selection-start-column="0" selection-end-line="873" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RateRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/javax/script/Invocable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ParseText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/time/LocalDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="312" column="28" selection-start-line="312" selection-start-column="28" selection-end-line="312" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-454">
-          <caret line="623" column="12" selection-start-line="623" selection-start-column="12" selection-end-line="623" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/text/AttributedString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="1094" column="6" selection-start-line="1094" selection-start-column="6" selection-end-line="1094" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="285" column="19" selection-start-line="285" selection-start-column="19" selection-end-line="285" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_65/jre/lib/ext/nashorn.jar!/jdk/nashorn/api/scripting/NashornScriptEngine.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar!/org/apache/commons/collections4/map/AbstractHashedMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="100" column="17" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.1/jsoup-1.10.1.jar!/org/jsoup/Connection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.1/jsoup-1.10.1.jar!/org/jsoup/helper/HttpConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="251" column="20" selection-start-line="251" selection-start-column="20" selection-end-line="251" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="645" column="17" selection-start-line="645" selection-start-column="17" selection-end-line="645" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.1/jsoup-1.10.1-sources.jar!/org/jsoup/helper/DataUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-118">
@@ -1163,13 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/java/jdk1.8.0_65/jre/lib/rt.jar!/sun/net/www/http/HttpClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-482">
@@ -1216,141 +939,208 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ParseHtml.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.js" />
+    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-4180">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1912">
+          <caret line="250" column="25" selection-start-line="250" selection-start-column="25" selection-end-line="250" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2254">
+          <caret line="435" column="32" selection-start-line="435" selection-start-column="32" selection-end-line="435" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="4277" column="4" selection-start-line="4277" selection-start-column="4" selection-end-line="4277" selection-end-column="4" />
+        <state relative-caret-position="173">
+          <caret line="4396" column="29" selection-start-line="4396" selection-start-column="29" selection-end-line="4396" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pair.java">
+    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="483">
+          <caret line="109" column="29" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.1/jsoup-1.10.1-sources.jar!/org/jsoup/helper/HttpConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4104">
-          <caret line="234" column="26" selection-start-line="234" selection-start-column="26" selection-end-line="234" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#6888#6889#0" expanded="false" />
-            <element signature="e#6914#6915#0" expanded="false" />
-            <element signature="e#7070#7071#0" expanded="false" />
-            <element signature="e#7096#7097#0" expanded="false" />
-            <element signature="e#7765#7766#0" expanded="false" />
-            <element signature="e#7799#7800#0" expanded="false" />
-            <element signature="e#7992#7993#0" expanded="false" />
-            <element signature="e#8029#8030#0" expanded="false" />
-            <element signature="e#9610#9611#0" expanded="false" />
-            <element signature="e#9648#9649#0" expanded="false" />
-            <element signature="e#11414#11415#0" expanded="false" />
-            <element signature="e#11452#11453#0" expanded="false" />
-            <element signature="e#12546#12547#0" expanded="false" />
-            <element signature="e#12582#12583#0" expanded="false" />
-            <element signature="e#12917#12918#0" expanded="false" />
-            <element signature="e#12967#12968#0" expanded="false" />
-            <element signature="e#13224#13225#0" expanded="false" />
-            <element signature="e#13271#13272#0" expanded="false" />
-            <element signature="e#13532#13533#0" expanded="false" />
-            <element signature="e#13578#13579#0" expanded="false" />
-            <element signature="e#13788#13789#0" expanded="false" />
-            <element signature="e#13835#13836#0" expanded="false" />
-            <element signature="e#13887#13888#0" expanded="false" />
-            <element signature="e#13941#13942#0" expanded="false" />
-            <element signature="e#14003#14004#0" expanded="false" />
-            <element signature="e#14058#14059#0" expanded="false" />
-            <element signature="e#14273#14274#0" expanded="false" />
-            <element signature="e#14321#14322#0" expanded="false" />
-            <element signature="e#14737#14738#0" expanded="false" />
-            <element signature="e#14772#14773#0" expanded="false" />
-            <element signature="e#14938#14939#0" expanded="false" />
-            <element signature="e#14973#14974#0" expanded="false" />
-            <element signature="e#15158#15159#0" expanded="false" />
-            <element signature="e#15195#15196#0" expanded="false" />
-            <element signature="e#15548#15549#0" expanded="false" />
-            <element signature="e#15594#15595#0" expanded="false" />
-            <element signature="e#16431#16432#0" expanded="false" />
-            <element signature="e#16462#16463#0" expanded="false" />
-            <element signature="e#22196#22197#0" expanded="false" />
-            <element signature="e#22237#22238#0" expanded="false" />
-            <element signature="e#22278#22279#0" expanded="false" />
-            <element signature="e#22322#22323#0" expanded="false" />
-            <element signature="e#22357#22358#0" expanded="false" />
-            <element signature="e#22395#22396#0" expanded="false" />
-            <element signature="e#22556#22557#0" expanded="false" />
-            <element signature="e#22598#22599#0" expanded="false" />
-            <element signature="e#25628#25797#0" expanded="false" />
-            <element signature="e#25796#25797#0" expanded="false" />
-            <element signature="e#26767#26768#0" expanded="false" />
-            <element signature="e#26826#26827#0" expanded="false" />
-            <element signature="e#28825#28847#0" expanded="false" />
-            <element signature="e#29398#29406#0" expanded="false" />
-            <element signature="e#36982#36983#0" expanded="false" />
-            <element signature="e#37047#37048#0" expanded="false" />
-            <element signature="e#37453#37454#0" expanded="false" />
-            <element signature="e#37487#37488#0" expanded="false" />
-            <element signature="e#37700#37701#0" expanded="false" />
-            <element signature="e#37736#37737#0" expanded="false" />
-            <element signature="e#37991#37992#0" expanded="false" />
-            <element signature="e#38028#38029#0" expanded="false" />
-            <element signature="e#38071#38072#0" expanded="false" />
-            <element signature="e#38116#38117#0" expanded="false" />
-            <element signature="e#38170#38171#0" expanded="false" />
-            <element signature="e#38218#38219#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CreateRates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="173">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.1/jsoup-1.10.1-sources.jar!/org/jsoup/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5282">
-          <caret line="290" column="0" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1146#1147#0" expanded="false" />
-            <element signature="e#1192#1193#0" expanded="false" />
-            <element signature="e#1354#1355#0" expanded="false" />
-            <element signature="e#1392#1393#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="5472">
+          <caret line="300" column="13" selection-start-line="300" selection-start-column="13" selection-end-line="300" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ParseText.java">
+    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="183">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FutureTools.java" />
+    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="118" column="12" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/util/stream/ReferencePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="397" column="31" selection-start-line="397" selection-start-column="31" selection-end-line="397" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="449" column="14" selection-start-line="449" selection-start-column="14" selection-end-line="449" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/util/concurrent/CompletableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="2121" column="36" selection-start-line="2121" selection-start-column="36" selection-end-line="2121" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/lang/Void.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/time/format/DateTimeFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="993" column="42" selection-start-line="993" selection-start-column="42" selection-end-line="993" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TheDayRates.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Index.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        <state relative-caret-position="247">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.15/poi-3.15.jar!/org/apache/poi/hssf/usermodel/HSSFWorkbook.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.15/poi-3.15-sources.jar!/org/apache/poi/hssf/usermodel/HSSFWorkbook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.15/poi-3.15-sources.jar!/org/apache/poi/ss/usermodel/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1437">
+          <caret line="270" column="9" selection-start-line="270" selection-start-column="9" selection-end-line="270" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-387">
+          <caret line="122" column="11" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/util/stream/Collector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="202" column="16" selection-start-line="202" selection-start-column="16" selection-end-line="202" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ToTreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/InExecl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1359,19 +1149,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RateRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="1634">
+          <caret line="98" column="41" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_65/src.zip!/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="1993" column="7" selection-start-line="1993" selection-start-column="7" selection-end-line="1993" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
-          <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="179">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
