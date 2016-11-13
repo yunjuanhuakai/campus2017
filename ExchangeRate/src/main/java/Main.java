@@ -24,7 +24,7 @@ public class Main {
         .map(e -> new RateRequest(RateRequest.Address + e.attr("href")))
         .map(RateRequest::document);
     // 这样写的唯一原因就是为了一个较短的类型声明
-    streamToList(ds.map(future -> future.thenApply(Tools::parse)), d, tools)
+    streamToList(ds.map(future -> future.thenCompose(Tools::parse)), d, tools)
         .stream()
         .map(CompletableFuture::join)
         .map(item -> Pair.of(item.first, tools.collect(item.second)))
@@ -32,7 +32,7 @@ public class Main {
   }
 
   public static void main(String[] args) {
-    Tools tools = Tools.getTools();// .days(40);
+    Tools tools = Tools.getTools().days(30);
     InExecl execl = new InExecl("test.xls", tools);
 
     Stream.iterate(Index.of(1), Index::next)

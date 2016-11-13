@@ -5,6 +5,8 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.Collections;
+import java.util.concurrent.CompletableFuture;
+import java.util.function.Function;
 import java.util.stream.Stream;
 
 public class Tools {
@@ -39,7 +41,9 @@ public class Tools {
     return days;
   }
 
-  public Set<String> set() { return set; }
+  public Set<String> set() {
+    return set;
+  }
 
   public LocalDate end() {
     return start.minusDays(days);
@@ -68,24 +72,32 @@ public class Tools {
     if (the.isAfter(end))
       return -1;
     int res = 18;
-    while (the.equals(end) || the.isBefore(end)) {
+    while (the.isBefore(end) && the.isAfter(start)) {
       the = LocalDate.parse(elements.get(res--).html(),
           DateTimeFormatter.ISO_LOCAL_DATE);
     }
     return ++res;
   }
 
-  // 公告页
-  public static Pair<LocalDate, Stream<Rate>> parse(Document document) {
-    String text = document.getElementById("zoom").child(0).html();
-    text = text.split("：")[1];
-    text = text.substring(0, text.length() - 1);
-    Stream<Rate> rl = Arrays.stream(text.split("(，|, )"))
-        .map(Tools::fetch);
+  public static <T, R> Function<T, CompletableFuture<R>>
+  toFuture(Function<T, R> func) {
+    return t -> CompletableFuture.supplyAsync(() -> func.apply(t));
+  }
 
-    String dateStr = document.getElementById("shijian").html().split(" ")[0];
-    LocalDate date = LocalDate.parse(dateStr, DateTimeFormatter.ISO_LOCAL_DATE);
-    return Pair.of(date, rl);
+  // 公告页
+  public static CompletableFuture<Pair<LocalDate, Stream<Rate>>>
+  parse(Document document) {
+    return CompletableFuture.supplyAsync(() -> {
+      String text = document.getElementById("zoom").child(0).html();
+      text = text.split("：")[1];
+      text = text.substring(0, text.length() - 1);
+      Stream<Rate> rl = Arrays.stream(text.split("(，|, )"))
+          .map(Tools::fetch);
+
+      String dateStr = document.getElementById("shijian").html().split(" ")[0];
+      LocalDate date = LocalDate.parse(dateStr, DateTimeFormatter.ISO_LOCAL_DATE);
+      return Pair.of(date, rl);
+    });
   }
 
   private static Rate fetch(String str) {

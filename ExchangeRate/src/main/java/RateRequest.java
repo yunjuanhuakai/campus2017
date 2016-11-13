@@ -87,11 +87,11 @@ public class RateRequest {
     header.put("Connection", "keep-alive");
     Connection connect = Jsoup.connect(request.url).timeout(5000).data(header);
 
-    System.out.println("url is " + request.url + " cookies is " + request.cookies);
     return CompletableFuture.supplyAsync(() -> {
-      // delay(); // 每次访问加一个随机延时
+      delay(); // 每次访问加一个随机延时
       try {
         if (request.cookies != null) connect.cookies(request.cookies);
+        System.out.println("url is " + request.url + " cookies is " + request.cookies);
         Connection.Response response = connect.execute();
         request.cookies = response.cookies();
         connect.cookies(response.cookies());
