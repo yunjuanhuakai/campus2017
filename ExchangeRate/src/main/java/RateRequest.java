@@ -78,9 +78,18 @@ public class RateRequest {
   }
 
   private CompletableFuture<Document> request(Request request) {
-    Connection connect = Jsoup.connect(request.url).timeout(3000);
+    Map<String, String> header = new HashMap<>();
+    header.put("Host", "http://info.bet007.com");
+    header.put("User-Agent", "  Mozilla/5.0 (Windows NT 6.1; WOW64; rv:5.0) Gecko/20100101 Firefox/5.0");
+    header.put("Accept", "  text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8");
+    header.put("Accept-Language", "zh-cn,zh;q=0.5");
+    header.put("Accept-Charset", "  GB2312,utf-8;q=0.7,*;q=0.7");
+    header.put("Connection", "keep-alive");
+    Connection connect = Jsoup.connect(request.url).timeout(5000).data(header);
+
+    System.out.println("url is " + request.url + " cookies is " + request.cookies);
     return CompletableFuture.supplyAsync(() -> {
-      delay(); // 每次访问加一个0.1~0.5秒的随机延时
+      // delay(); // 每次访问加一个随机延时
       try {
         if (request.cookies != null) connect.cookies(request.cookies);
         Connection.Response response = connect.execute();
@@ -96,7 +105,7 @@ public class RateRequest {
   }
 
   private static void delay() {
-    int delay = 10 + random.nextInt(100);
+    int delay = 100 + random.nextInt(500);
     try {
       Thread.sleep(delay);
     } catch (InterruptedException e) {
