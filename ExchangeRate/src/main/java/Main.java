@@ -1,7 +1,9 @@
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
+import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Stream;
 
@@ -10,11 +12,12 @@ import static java.util.stream.Collectors.toList;
 public class Main {
   private static <T> List<T> streamToList(Stream<T> stream, Document d, Tools tools) {
     List<T> futures;
-    long index = tools.indexOf(d);
-    if (index == -1)
-      futures = stream.collect(toList());
+    Optional<Integer> index = tools.indexOf(d);
+    if (!index.isPresent())
+      return Collections.emptyList();
     else
-      futures = stream.limit(index + 1).collect(toList());
+      futures = stream.limit(index.get()).collect(toList());
+
     return futures;
   }
 
@@ -32,7 +35,7 @@ public class Main {
   }
 
   public static void main(String[] args) {
-    Tools tools = Tools.getTools().days(30);
+    Tools tools = Tools.getTools();//.days(61);
     InExecl execl = new InExecl("test.xls", tools);
 
     Stream.iterate(Index.of(1), Index::next)
@@ -44,6 +47,8 @@ public class Main {
         .map(CompletableFuture::join)
         .count();
 
+    System.out.println("数据请求完成，正在向 excel 文件写入");
     execl.toFile();
+    System.out.println("写入成功");
   }
 }

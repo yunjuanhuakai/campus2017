@@ -53,6 +53,7 @@ public class RateRequest {
   private CompletableFuture<Request> runSecondJs(String js, Request request) {
     ScriptEngine engine = new ScriptEngineManager().getEngineByName("nashorn");
     return CompletableFuture.supplyAsync(() -> {
+      System.out.println("正在解析 url：" + request.url + " 的动态页面");
       String wzwstemplate, wzwschallenge, dynamicurl;
       try {
         engine.eval(js.substring(0, js.length() - 16));
@@ -90,8 +91,8 @@ public class RateRequest {
     return CompletableFuture.supplyAsync(() -> {
       delay(); // 每次访问加一个随机延时
       try {
+        System.out.println("正在向 url：" + request.url + " 请求数据");
         if (request.cookies != null) connect.cookies(request.cookies);
-        System.out.println("url is " + request.url + " cookies is " + request.cookies);
         Connection.Response response = connect.execute();
         request.cookies = response.cookies();
         connect.cookies(response.cookies());

@@ -63,25 +63,27 @@ public class Tools {
   }
 
   // 索引页
-  public int indexOf(Document document) {
+  public Optional<Integer> indexOf(Document document) {
     Elements elements = document.select("span.hui12");
     LocalDate end = end();
     LocalDate the = LocalDate.parse(elements.last().html(),
         DateTimeFormatter.ISO_LOCAL_DATE);
 
-    if (the.isAfter(end))
-      return -1;
-    int res = 18;
-    while (the.isBefore(end) && the.isAfter(start)) {
-      the = LocalDate.parse(elements.get(res--).html(),
-          DateTimeFormatter.ISO_LOCAL_DATE);
-    }
-    return ++res;
-  }
+    if (end.isBefore(the))
+      return Optional.of(20);
 
-  public static <T, R> Function<T, CompletableFuture<R>>
-  toFuture(Function<T, R> func) {
-    return t -> CompletableFuture.supplyAsync(() -> func.apply(t));
+    the = LocalDate.parse(elements.first().html(),
+        DateTimeFormatter.ISO_LOCAL_DATE);
+
+    if (the.isBefore(end))
+      return Optional.empty(); // first is before end; no read the document
+
+    int res = 1;
+    while (the.isAfter(end))
+      the = LocalDate.parse(elements.get(res++).html(),
+          DateTimeFormatter.ISO_LOCAL_DATE);
+
+    return Optional.of(res);
   }
 
   // 公告页
@@ -96,6 +98,7 @@ public class Tools {
 
       String dateStr = document.getElementById("shijian").html().split(" ")[0];
       LocalDate date = LocalDate.parse(dateStr, DateTimeFormatter.ISO_LOCAL_DATE);
+      System.out.println("正在解析：" + date + " 的汇率信息");
       return Pair.of(date, rl);
     });
   }
