@@ -35,15 +35,16 @@ public class Main {
   }
 
   public static void main(String[] args) {
-    Tools tools = Tools.getTools();//.days(61);
+    Tools tools = Tools.getTools().days(61);
     InExecl execl = new InExecl("test.xls", tools);
 
     Stream.iterate(Index.of(1), Index::next)
+        .limit(tools.days() / 20 + 1) // 每个界面20项
+        .parallel()
         .map(Index::document)
         .map(f -> f.thenAccept(d -> run(d, execl, tools)))
-        .limit(tools.days() / 20 + 1) // 每个界面20项
-        .collect(toList())  // 异步访问所有索引页
-        .stream()
+        // .collect(toList())  // 异步访问所有索引页
+        // .stream()
         .map(CompletableFuture::join)
         .count();
 
